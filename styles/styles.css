@@ -3,7 +3,7 @@
   color: #fff;
 }
 
-h1, h2, h3 {
+h1, h2, h3, p {
   color: #fff;
 }
 
@@ -31,6 +31,11 @@ h3 {
   text-align: center;
 }
 
+p {
+  font-family: 'Playfair Display', serif;
+  margin: 10px;
+}
+
 nav {
   padding: 0 auto;
 }
@@ -49,7 +54,7 @@ nav {
 }
 
 .layer {
-    background-color: rgba(232, 229, 201, 0.20);
+    background-color: rgba(232, 229, 201, 0);
     position: absolute;
     top: 0;
     left: 0;
@@ -120,6 +125,12 @@ nav {
   background-size: cover;
 }
 
-body {
-  margin-bottom: 50px;
+footer {
+  height: 40px;
+  background-color: silver;
+}
+
+.fa-linkedin-in {
+  color: black;
+  display: inline;
 }
